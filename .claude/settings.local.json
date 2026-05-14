@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file:*)",
+      "Bash(ls:*)",
+      "Bash(conda run:*)",
+      "Bash(conda run -n datalabeling python -c \":*)",
+      "Bash(python3:*)",
+      "Bash(tee /home/oper/LabelDiffusion/results/rapier_50k_p030/run_log.txt)",
+      "Bash(find /home/oper/CICIDS2018/ -name *.txt -o -name *.json -o -name label*)",
+      "Bash(tee /tmp/train_cic_run.txt)",
+      "Bash(tee /tmp/train_cic_run2.txt)",
+      "Bash(tee /tmp/tune_run.txt)"
+    ]
+  }
+}
